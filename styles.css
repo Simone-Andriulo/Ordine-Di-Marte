@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  font-family: 'Georgia', serif;
+  background:#111;
+  color:#eee;
+  line-height:1.6;
+  display:flex;
+  justify-content:center;
+  padding:40px 20px;
+}
+
+.container{
+  max-width:800px;
+  text-align:center;
+}
+
+.title{
+  color:#ff0000;
+  font-size:2.5rem;
+  margin-bottom:1.5rem;
+}
+
+.intro{
+  font-style:italic;
+  margin:2rem 0;
+}
+
+.c1{ color:#ff0000; }
+.c2{ color:#ff3300; }
+.c3{ color:#cc0000; }
+.c4{ color:#990000; }
+
+.invito{ margin:2rem 0; }
+.cta{
+  background:#220000;
+  padding:1rem;
+  margin:2rem 0;
+  border-radius:8px;
+}
+.cta h2{ margin:0; font-size:1.8rem; }
+
+.chiusura{ margin:2rem 0; }
+.sigillo pre{
+  font-family: monospace;
+  white-space: pre;
+  text-align:center;
+}
